@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALKI</title>
+    <link rel="shortcut icon" href="/public/talki.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="/client.js"></script>
+</head>
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <img src="/talki.png" alt="logo image">
+            <h1>TALKI</h1>
+        </div>
+        <div class="message_area">
+            <!-- <div class="incoming message">
+                <h4 class="user_name">Achyut</h4>
+                <p>Hi Buddy</p>
+            </div>
+            <div class="outgoing message">
+                <h4 class="user_name">Sanju</h4>
+                <p>Hello.</p>
+            </div> -->
+        </div>
+        <div class="txt_area">
+            <textarea id="textarea" cols="30" rows="1" placeholder="write your message..."></textarea>
+        </div>
+    </section>
+</body>
+</html>
